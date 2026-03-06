@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tranyce Lester — Personal Home Page</title>
+  <meta name="description" content="Personal home page for Nyce Lester, ITIS 3135 Front-End Web Development student at UNC Charlotte." />
+
+  
+  <link rel="stylesheet" href="itis3135/styles/default.css" />
+
+  <!--  Accumulus validator -->
+  <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="responsive">
+
+  <header>
+    <h1>Tranyce Lester</h1>
+    <h2>UX/UI Designer</h2>
+  </header>
+
+  <main>
+    <section class="card" aria-labelledby="about">
+      <h3 id="about" class="sr-only">About</h3>
+      <p class="lede">
+        Hi! I’m Tranyce Lester, a Computer Science student focused on User Experience and User Interface Design.
+        I create clean, accessible interfaces and enjoy turning design research into working prototypes.
+      </p>
+      <p>
+        This site is my professional portfolio page and hub for coursework, projects, and profiles.
+        From here you can jump to my UNCC course site, my GitHub repositories and GitHub Pages, and my LinkedIn profile.
+        I keep both my school site and GitHub Pages in sync and validate pages regularly for quality.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <nav aria-label="Primary links">
+      <div class="footer-nav">
+        <a href="https://webpages.charlotte.edu/tlester5/itis3135/" target="_blank" rel="noopener noreferrer">ITIS3135</a>
+        <span class="sep" aria-hidden="true">|</span>
+        <a href="https://github.com/nyceLester5/nyceLester5.github.io" target="_blank" rel="noopener noreferrer">GitHub.com</a>
+        <span class="sep" aria-hidden="true">|</span>
+        <a href="https://webpages.charlotte.edu/tlester5/" target="_blank" rel="noopener noreferrer">CLT Web</a>
+        <span class="sep" aria-hidden="true">|</span>
+        <a href="https://nycelester5.github.io/" target="_blank" rel="noopener noreferrer">GitHub.io</a>
+        <span class="sep" aria-hidden="true">|</span>
+        <a href="https://www.freecodecamp.org/NyceL" target="_blank" rel="noopener noreferrer">FreeCodeCamp</a>
+        <span class="sep" aria-hidden="true">|</span>
+        <a href="https://www.codecademy.com/profiles/NyceLester" target="_blank" rel="noopener noreferrer">Codecademy</a>
+        <span class="sep" aria-hidden="true">|</span>
+        <a href="https://www.linkedin.com/in/tranycelester" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </nav>
+
+    <div style="margin-top: 0.75rem;">
+      
+      <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fnycelester5.github.io%2F" target="_blank" rel="noopener noreferrer">Validate HTML</a>
+      <span class="sep" aria-hidden="true">|</span>
+      <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnycelester5.github.io%2F&profile=css3svg&usermedium=all&warning=1" target="_blank" rel="noopener noreferrer">Validate CSS</a>
+    </div>
+
+    <p style="margin-top: 0.75rem;">
+      © <span id="y"></span> Nyce Lester • All rights reserved.
+    </p>
+  </footer>
+
+  <script>
+    // Auto-update current year in footer
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
